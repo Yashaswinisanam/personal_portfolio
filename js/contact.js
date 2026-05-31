@@ -4,12 +4,12 @@ document.addEventListener("DOMContentLoaded", () => {
     // CONFIGURATION: REPLACE THESE WITH REAL KEYS
     // =========================================
     const EMAILJS_PUBLIC_KEY = "77I3HwMGEhl374fxU";
-    const EMAILJS_SERVICE_ID = "service_9kz083i";
-    const EMAILJS_TEMPLATE_ID = "template_edd0fb5";
+    const EMAILJS_SERVICE_ID = "service_hb2te2y";
+    const EMAILJS_TEMPLATE_ID = "template_09hpij7";
 
     // Initialize EmailJS
     if (typeof emailjs !== 'undefined') {
-        emailjs.init(EMAILJS_PUBLIC_KEY);
+        emailjs.init("77I3HwMGEhl374fxU");
     }
 
     const contactForm = document.getElementById('contact-form');

@@ -82,7 +82,7 @@ document.addEventListener("DOMContentLoaded", () => {
        TYPING TEXT EFFECT
     ========================================= */
     const typedTextSpan = document.querySelector(".typed-text");
-    const textArray = ["Web Developer", "AI Explorer", "Problem Solver", "CSE Undergraduate"];
+    const textArray = ["Full-Stack Developer","Aspiring Software Engineer", "AI Explorer", "Problem Solver", "CSE Undergraduate"];
     const typingDelay = 100;
     const erasingDelay = 50;
     const newTextDelay = 2000;
@@ -154,7 +154,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const closeModalBtn = document.querySelector('.close-modal');
     const modalBackdrop = document.querySelector('.modal-backdrop');
     const resumeIframe = document.getElementById('resume-iframe');
-    const resumeUrl = 'assets/resume/yashaswini_resume.pdf';
+    const resumeUrl = 'assets/resume/yashaswiniresume.pdf';
 
     function openModal(e) {
         if(e) e.preventDefault();
