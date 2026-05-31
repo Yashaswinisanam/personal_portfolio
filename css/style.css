@@ -456,21 +456,24 @@ header.scrolled {
 
 .icon {
     position: absolute;
-    font-size: 2rem;
-    opacity: 0.18;
-    filter: blur(0.5px);
-    animation: float 10s ease-in-out infinite;
+    font-size: 2.5rem;
+    opacity: 0.6;
+    animation: float 6s ease-in-out infinite;
 }
 
-.html-icon { top: 20%; left: 15%; animation-delay: 0s; color: rgba(227, 79, 38, 0.2); }
-.css-icon { top: 60%; left: 10%; animation-delay: -2s; color: rgba(21, 114, 182, 0.2); }
-.js-icon { top: 30%; right: 20%; animation-delay: -4s; color: rgba(247, 223, 30, 0.25); }
-.py-icon { top: 70%; right: 15%; animation-delay: -6s; color: rgba(55, 118, 171, 0.2); }
-.react-icon { top: 80%; left: 30%; animation-delay: -8s; color: rgba(97, 218, 251, 0.25); }
+.html-icon { top: 15%; left: 10%; animation-delay: 0s; color: rgba(227, 79, 38, 0.8); }
+.css-icon { top: 50%; left: 5%; animation-delay: -1s; color: rgba(21, 114, 182, 0.8); }
+.js-icon { top: 25%; right: 15%; animation-delay: -2s; color: rgba(247, 223, 30, 0.8); }
+.py-icon { top: 65%; right: 10%; animation-delay: -3s; color: rgba(55, 118, 171, 0.8); }
+.react-icon { top: 75%; left: 25%; animation-delay: -4s; color: rgba(97, 218, 251, 0.8); }
+.node-icon { top: 15%; right: 30%; animation-delay: -1.5s; color: rgba(104, 160, 99, 0.8); }
+.java-icon { top: 40%; left: 25%; animation-delay: -2.5s; color: rgba(248, 152, 32, 0.8); }
+.mongo-icon { top: 55%; right: 25%; animation-delay: -3.5s; color: rgba(71, 162, 72, 0.8); }
+.git-icon { top: 85%; right: 35%; animation-delay: -4.5s; color: rgba(240, 80, 50, 0.8); }
 
 @keyframes float {
     0%, 100% { transform: translateY(0) rotate(0deg); }
-    50% { transform: translateY(-30px) rotate(10deg); }
+    50% { transform: translateY(-50px) rotate(20deg); }
 }
 
 .scroll-indicator {
@@ -750,17 +753,15 @@ header.scrolled {
 }
 
 .project-image {
-    height: 200px;
-    background: linear-gradient(45deg, #e0e5ec, #f0f2f5);
-    position: relative;
+    height: 220px;
     overflow: hidden;
 }
 
-.project-img {
+.project-image img {
     width: 100%;
-    height: 100%;
+    height: auto;
+    min-height: 100%;
     object-fit: cover;
-    display: block;
 }
 
 .project-image::before {
